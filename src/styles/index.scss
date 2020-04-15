@@ -1,0 +1,13 @@
+// 通过 @import导入css时会额外发出一个html请求
+
+// 通过@import 导入 scss则不会
+// 导入带有下划线的scss文件时，意思是不要将其编译成css文件
+// 也就是说带有下划线的scss只能被导入，不能被编译
+// 但是导入带下划线的scss文件时不需要加下划线
+@import "variables.scss";
+
+// mixin
+@import './mixin.scss';
+
+// button
+@import "../components/Button/style.scss";
