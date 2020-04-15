@@ -8,7 +8,9 @@ const App: React.FC = () => {
       <Button
         disabled 
       >Hello</Button>
+      {/* 在组件中可以像原生一样使用onClick */}
       <Button
+        onClick={() => alert(222)}
         btnType={ButtonType.Primary}
         size={ButtonSize.Large}
       >
@@ -20,10 +22,12 @@ const App: React.FC = () => {
       >
         Hello
       </Button>
+      {/* 在组件中可以像原生a标签一样使用target */}
       <Button
-        disabled
+        // disabled
         btnType={ButtonType.Link}
         href="http://www.baidu.com"
+        target="_blank"
       >
         Baidu Link
       </Button>
