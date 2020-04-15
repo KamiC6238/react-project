@@ -1,10 +1,16 @@
 import React from 'react';
 import Button, { ButtonType, ButtonSize } from './components/Button/button';
+import Alert, { AlertType } from './components/Alert/alert'
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <code>const a = 'b'</code>
+      <Alert
+        // closable={true}
+        title="this is alert!"
+        alertType={AlertType.Default}
+        description="哈哈哈哈"
+      />
       <Button
         disabled 
       >Hello</Button>

@@ -1,0 +1,45 @@
+.al {
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  .al-title,
+  .al-title-no-content,
+  .al-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .al-title {
+    font-size: $al-title-font-size;
+  }
+  .al-title-no-content {
+    font-size: $al-font-size-sm;
+  }
+  .al-content {
+    font-size: $al-content-font-size;
+    margin-top: 0.5rem;
+  }
+  .al-close {
+    font-size: $al-title-font-size;
+    cursor: pointer;
+  }
+  .al-close-hidden {
+    display: none;
+  }
+}
+
+.al-default {
+  @include alert-theme($primary, $white)
+}
+
+.al-danger {
+  @include alert-theme($danger, $white)
+}
+
+.al-warning {
+  @include alert-theme($warning, $white)
+}
+
+.al-success {
+  @include alert-theme($success, $white)
+}

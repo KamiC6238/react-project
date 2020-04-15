@@ -25,7 +25,7 @@ $primary:    $blue !default;
 $secondary:  $gray-600 !default;
 $success:    $green !default;
 $info:       $cyan !default;
-$warngin:    $yellow !default;
+$warning:    $yellow !default;
 $danger:     $red !default;
 $light:      $gray-100 !default;
 $dark:       $gray-800 !default;
@@ -101,3 +101,13 @@ $btn-border-radius-lg: $border-radius-lg !default;
 $btn-border-radius-sm: $border-radius-sm !default;
 
 $btn-transition: color .15s ease-in-out !default;
+
+// alert
+$al-background: $primary !default;
+$al-color: $white !default;
+$al-border-radius: $border-radius-sm !default;
+$al-font-size-sm: $font-size-base * .875 !default;
+$al-font-size-lg: $font-size-base !default;
+$al-title-font-size: $font-size-base * 0.9 !default;
+$al-content-font-size: $font-size-base * 0.72 !default;
+// $al-close-font-size: $font-size-base * 1.3 !default;

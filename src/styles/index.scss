@@ -10,4 +10,8 @@
 @import './mixin.scss';
 
 // button
+// 因为先导入了mixin， 所以可以在style.scss中使用mixin的方法
 @import "../components/Button/style.scss";
+
+// alert
+@import "../components/Alert/style.scss"

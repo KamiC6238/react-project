@@ -23,6 +23,8 @@
   }
 }
 
+// 通过 mixin + include的方式，可以减少重复代码
+
 .btn-lg {
   @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-font-size-lg, $border-radius-lg);
 }

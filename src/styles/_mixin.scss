@@ -33,3 +33,10 @@
     border-color: $border;
   }
 }
+
+// alert
+@mixin alert-theme($background, $color) {
+  background: $background;
+  color: $color;
+  border-radius: $al-border-radius;
+}
