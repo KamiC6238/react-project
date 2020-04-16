@@ -36,7 +36,6 @@ const Alert: React.FC<NativeDivProps> = props => {
     onClose,
     ...restProps
   } = props
-  console.log(restProps)
   const classes = classNames('al', className, {
     [`al-${alertType}`]: alertType 
   })
